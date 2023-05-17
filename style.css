@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(157, 15, 43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+header h1{
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* hero section */
+
+section{
+    background-color: antiquewhite;
+    display: flex;
+    height: 90vh;
+    padding: 40px 70px;
+    align-items: center;
+
+}
+
+section div img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 100px;
+
+}
+
+section p{
+    color: rgb(91, 88, 88);
+}
+
+section .txt{
+    margin-top: -100px;
+}
